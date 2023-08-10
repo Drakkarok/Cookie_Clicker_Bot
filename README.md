@@ -2,7 +2,8 @@
 
 Short description:  
 A bot that automatically plays a web hosted CookieClicker for you!  
-Link for the game: [https://orteil.dashnet.org/cookieclicker/](url)
+Link for the game: 
+[https://orteil.dashnet.org/cookieclicker/](url)
 
 Long description:  
 A bot made with Selenium for a web broswer game named CookieClicker.  
