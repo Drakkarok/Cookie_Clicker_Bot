@@ -10,7 +10,6 @@ class Clicker:
         self.driver = driver
         self.click_for_gdpr()
         self.click_got_it()
-        # self.click_on_x()
         self.click_for_language(time_to_wait)
 
 # ---------------------------------------------------------------------------------- START-UP
@@ -18,11 +17,6 @@ class Clicker:
     def click_got_it(self):
         wait = WebDriverWait(self.driver, 1)
         entity = wait.until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[1]/div/a[1]")))
-        entity.click()
-
-    def click_on_x(self):
-        wait = WebDriverWait(self.driver, 1)
-        entity = wait.until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[2]/div/ins/img[3]")))
         entity.click()
 
     def click_for_gdpr(self):
